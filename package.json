@@ -1,0 +1,30 @@
+{
+  "name": "opi-gpio-pins",
+  "version": "0.0.1",
+  "description": "Orange Gpio Pins enumeration with Node.js",
+  "main": "opi-gpio-pins.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "istanbul cover node_modules/mocha/bin/_mocha",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/llatinov/opi-gpio-pins.git"
+  },
+  "keywords": [
+    "Orange Pi",
+    "GPIO pins"
+  ],
+  "author": "Lyudmil Latinov <llatinov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/llatinov/opi-gpio-pins/issues"
+  },
+  "homepage": "https://github.com/llatinov/opi-gpio-pins#readme",
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^4.0.1"
+  }
+}

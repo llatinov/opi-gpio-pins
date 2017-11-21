@@ -1,1 +1,1 @@
-# opi-gpio-pins
+# opi-gpio
