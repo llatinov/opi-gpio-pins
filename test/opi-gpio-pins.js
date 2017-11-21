@@ -48,7 +48,7 @@ describe('outputFor', () => {
     });
   });
 
-   it('outputFor physical 1 should throw an error', () => {
+  it('outputFor physical 1 should throw an error', () => {
     assert.throws(() => pins.outputFor(1), (err) => {
       if ((err instanceof Error) && /Invalid PIN: 1/.test(err)) return true;
     });
